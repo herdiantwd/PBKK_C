@@ -4,4 +4,4 @@
 | ---            | ---        | 
 | Herdian Tri Wardhana | 5025241229 | 
 
-[1. Database ](/Type%20Writing%20Skiils)
+[1. Implementasi C#: Sistem Data Mahasiswa](/1.%20SistemDataMahasiswa)
