@@ -1,4 +1,4 @@
-# Pengenalan C#: Sistem Data Mahasiswa
+# Pengenalan .NET dan C#: Sistem Data Mahasiswa
 
 ## Directory & Code
 <img width="1860" height="737" alt="image" src="https://github.com/user-attachments/assets/8bcf09a7-dfac-43c8-b73f-0e8891e47832" />
