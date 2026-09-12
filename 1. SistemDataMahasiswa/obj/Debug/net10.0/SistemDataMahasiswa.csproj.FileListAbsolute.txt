@@ -1,0 +1,14 @@
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\bin\Debug\net10.0\SistemDataMahasiswa.exe
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\bin\Debug\net10.0\SistemDataMahasiswa.deps.json
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\bin\Debug\net10.0\SistemDataMahasiswa.runtimeconfig.json
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\bin\Debug\net10.0\SistemDataMahasiswa.dll
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\bin\Debug\net10.0\SistemDataMahasiswa.pdb
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\obj\Debug\net10.0\SistemDataMahasiswa.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\obj\Debug\net10.0\SistemDataMahasiswa.AssemblyInfoInputs.cache
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\obj\Debug\net10.0\SistemDataMahasiswa.AssemblyInfo.cs
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\obj\Debug\net10.0\SistemDataMahasiswa.csproj.CoreCompileInputs.cache
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\obj\Debug\net10.0\SistemDataMahasiswa.dll
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\obj\Debug\net10.0\refint\SistemDataMahasiswa.dll
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\obj\Debug\net10.0\SistemDataMahasiswa.pdb
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\obj\Debug\net10.0\SistemDataMahasiswa.genruntimeconfig.cache
+D:\ITS\SEMESTER 5\PBKK\week2\SistemDataMahasiswa\obj\Debug\net10.0\ref\SistemDataMahasiswa.dll
