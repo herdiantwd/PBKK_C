@@ -4,4 +4,4 @@
 | ---- | --- | 
 | Herdian Tri Wardhana  | 5025241229 |
 
-[1. Pengenalan C#: Sistem Data Mahasiswa](/1.%20SistemDataMahasiswa)
+[1. Pengenalan .NET dan C#: Sistem Data Mahasiswa](/1.%20SistemDataMahasiswa)
