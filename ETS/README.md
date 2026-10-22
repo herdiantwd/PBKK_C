@@ -1,30 +1,50 @@
-# Dokumentasi Tugas Week 7 Membuat Sistem Informasi
-## Tanggal 21 Oktober 2026
-
-Anggota Kelompok:
-| Nama              | NRP        |  Kelas        |
-|-------------------|------------|-------------|
-| Herdian Tri Wardhana            | 5025241229      | PBKK-C      | 
-| Aminudin Wijaya            | 5025241242      | PBKK-C      | 
-| Nabil Irawan            | 5025241231      | PBKK-C      | 
-
-
-Sesuai tugas kelas pada hari Kamis, 15 Oktober 2026, kami telah membuat Sistem Informasi, berupa SIHIFA (Sistem Informasi Hiburan dan Media Favorit)
-Disini kami menggunakan dotnet run untuk build project yang telah di buat.
-
-### Fungsi dan Kemampuan Utama SIHIFA:
-
-- Manajemen Multi-Format Media (CRUD): Mengelola pencatatan anime, film/series, musik, buku, hingga materi pembelajaran dalam satu database terpusat.
-- Pelacakan Status & Evaluasi: Mencatat status konsumsi (Wishlist, In-Progress, Completed) lengkap dengan sistem penilaian (rating) dan catatan ulasan pribadi.
-- Pencarian & Pemfilteran Cepat: Menemukan kembali media favorit secara instan melalui pencarian judul, genre, kreator, maupun kategori.
-- Dashboard & Visualisasi Statistik: Menyajikan ringkasan analitik koleksi secara dinamis dalam bentuk kartu metrik dan grafik visual.
-- Kinerja Native & Offline-First: Beroperasi penuh secara luring (desktop WPF + SQLite lokal) dengan kemudahan ekspor/impor data mandiri.
-
+# Evalusai Tengah Semester PBKK C
 
 ### Lampiran & Source Code Proyek: <br>
 PRD (Product Requirement Documents) : [Link](https://docs.google.com/document/d/1KNcMuJ8tfM7rHSonIshSZgrMpbPjbxR_3NZptWiBrBg/edit?usp=sharing) <br>
 Source Code : [Link](https://github.com/KangZERO650/Tugas-Week-7-PBKK-C) <br>
-Demo : [Link](...)
+Demo : [Link](https://youtu.be/KbPny8O5P1E)
+
+## 1. Jelaskan perbedaan aplikasi desktop dengan aplikasi lain? Mengapa masih dibutuhkan
+ 
+Aplikasi desktop dipasang dan dijalankan langsung di sistem operasi komputer (pada SIHIFA: Windows lewat WPF/.NET). Aplikasi web berjalan di browser dan bergantung pada server, sedangkan aplikasi mobile berjalan di Android/iOS dengan layar kecil dan input sentuhan.
+ 
+| Aspek | Desktop (native) | Web / Cloud | Mobile |
+| :---- | :---- | :---- | :---- |
+| Tempat berjalan | Langsung di OS, memakai sumber daya perangkat keras | Browser, bergantung pada server dan internet | Smartphone/tablet |
+| Koneksi internet | Bisa sepenuhnya offline | Umumnya wajib online | Bervariasi |
+| Penyimpanan data | Lokal | Server milik penyedia layanan | Lokal dan cloud |
+| Performa | Tinggi, akses penuh ke CPU, RAM, dan file system | Dibatasi browser dan jaringan | Dibatasi baterai dan layar |
+| Kendali data | Penuh di tangan pengguna | Dipegang penyedia layanan | Campuran |
+| Cocok untuk | Pekerjaan data besar, multitasking, tampilan lebar | Akses lintas perangkat dan kolaborasi | Mobilitas dan penggunaan cepat |
+ 
+### Mengapa aplikasi desktop masih dibutuhkan
+ 
+- **Offline-first.** Aplikasi tetap bisa dipakai tanpa internet. Ini berbeda dengan aplikasi berbasis web yang membutuhkan koneksi.
+- **Performa dan efisiensi.** Aplikasi native WPF jauh lebih ringan daripada web atau wrapper Electron yang sering memakan RAM berlebih.
+- **Keamanan Privasi** Seluruh data tersimpan di mesin pengguna tanpa terhubung dengan pihak ketiga, sehingga tidak terpengaruh perubahan kebijakan atau penutupan layanan SaaS.
+- **Akses ke sistem file.** Backup/restore database `.db`, ekspor JSON/CSV, dan cache gambar lokal dapat dilakukan langsung lewat dialog Windows.
+ 
+## 2. Tuliskan problem yang akan diselesaikan oleh aplikasi yang kamu buat? Definisikan fitur aplikasi yang merupakan solusi dari problem tersebut.
+ 
+| Problem | Fitur solusi (SIHIFA) |
+| :---- | :---- |
+| **Data tersebar di banyak platform.** Anime di MyAnimeList, film di Letterboxd, musik di Spotify, buku di Goodreads, dan catatan di Notion, sehingga sulit melihat seluruh koleksi dalam satu tempat. | **CRUD multi-entitas (P0)**: satu aplikasi untuk Anime, Film, Musik, Buku, dan Materi, dengan form tervalidasi (`INotifyDataErrorInfo`). **Dashboard statistik dan grafik (P1)**: kartu Total Koleksi, Selesai, Wishlist, serta grafik distribusi genre/rating (LiveCharts2). |
+| **Ketergantungan SaaS dan risiko privasi.** Layanan online bisa berubah menjadi berbayar, menutup API, atau memonetisasi data. | **Local SQLite engine (P0)**: data tersimpan lokal dengan transaksi ACID. |
+| **Aplikasi web terlalu berat dan butuh internet.** | **Aplikasi native WPF/.NET dengan arsitektur MVVM**: ringan, startup cepat, dan berjalan offline. |
+| **Sulit mencari di koleksi besar.** | **Instant filter dan DataGrid ter-virtualisasi (P0)**: pencarian real-time lewat `CollectionViewSource` untuk judul, kreator, dan kategori, serta tampilan Card View. |
+| **Ketidaknyamanan visual**, terutama saat dipakai malam hari. | **Navigasi sidebar dan theme toggle (P0)**: dark/light mode yang berganti instan tanpa restart (`DynamicResource`). |
+| **Input metadata manual yang cukup banyak**| **Asynchronous API fetcher (P1)**: mengambil sinopsis dan poster dari AniList, TMDB, atau OpenLibrary secara opsional. Gambar di-cache di folder lokal dan jika gagal aplikasi beralih ke mode manual tanpa crash. |
+| **Ingin merangking dan membagikan favorit secara visual.** | **Tier List Generator (P2)**: kanvas drag-and-drop untuk tingkatan S/A/B/C/D yang dapat disimpan sebagai gambar PNG. |
+ 
+### Kesimpulan
+ 
+SIHIFA menyatukan koleksi hiburan yang terfragmentasi ke dalam satu aplikasi desktop yang cepat, privat, dan bisa dipakai offline, dengan data yang sepenuhnya dikendalikan pengguna.
+
+## 3. Buat Poster Infografis aplikasi yang telah dibuat dalam 1 halaman
+
+<img width="2400" height="7600" alt="Infografis SIHIFA" src="https://github.com/user-attachments/assets/2c0127b7-7c21-4881-95dc-2437ff1bd08a" />
+
 
 ## Dokumentasi
 
