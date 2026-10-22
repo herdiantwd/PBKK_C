@@ -36,14 +36,10 @@ Aplikasi desktop dipasang dan dijalankan langsung di sistem operasi komputer (pa
 | **Ketidaknyamanan visual**, terutama saat dipakai malam hari. | **Navigasi sidebar dan theme toggle (P0)**: dark/light mode yang berganti instan tanpa restart (`DynamicResource`). |
 | **Input metadata manual yang cukup banyak**| **Asynchronous API fetcher (P1)**: mengambil sinopsis dan poster dari AniList, TMDB, atau OpenLibrary secara opsional. Gambar di-cache di folder lokal dan jika gagal aplikasi beralih ke mode manual tanpa crash. |
 | **Ingin merangking dan membagikan favorit secara visual.** | **Tier List Generator (P2)**: kanvas drag-and-drop untuk tingkatan S/A/B/C/D yang dapat disimpan sebagai gambar PNG. |
- 
-### Kesimpulan
- 
-SIHIFA menyatukan koleksi hiburan yang terfragmentasi ke dalam satu aplikasi desktop yang cepat, privat, dan bisa dipakai offline, dengan data yang sepenuhnya dikendalikan pengguna.
 
 ## 3. Buat Poster Infografis aplikasi yang telah dibuat dalam 1 halaman
 
-<img width="2400" height="7600" alt="Infografis SIHIFA" src="https://github.com/user-attachments/assets/2c0127b7-7c21-4881-95dc-2437ff1bd08a" />
+<img width="2400" height="7600" alt="Infografis SIHIFA (3)" src="https://github.com/user-attachments/assets/53e88637-f2d1-48f9-940d-60733b8ff420" />
 
 
 ## Dokumentasi
