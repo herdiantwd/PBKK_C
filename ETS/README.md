@@ -1,9 +1,9 @@
 # Evalusai Tengah Semester PBKK C
 
 ### Lampiran & Source Code Proyek: <br>
-Project Blog : [Link](https://aminudinwijaya25.blogspot.com/2026/10/tugas-week-7-pbkk-c-tugas-kelompok.html) <br>
 PRD (Product Requirement Documents) : [Link](https://docs.google.com/document/d/1KNcMuJ8tfM7rHSonIshSZgrMpbPjbxR_3NZptWiBrBg/edit?usp=sharing) <br>
 Source Code : [Link](https://github.com/KangZERO650/Tugas-Week-7-PBKK-C) <br>
+Project Blog : [Link](https://aminudinwijaya25.blogspot.com/2026/10/tugas-week-7-pbkk-c-tugas-kelompok.html) <br>
 Demo : [Link](https://youtu.be/KbPny8O5P1E)
 
 ## 1. Jelaskan perbedaan aplikasi desktop dengan aplikasi lain? Mengapa masih dibutuhkan
