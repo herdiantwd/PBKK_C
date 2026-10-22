@@ -41,12 +41,3 @@ Aplikasi desktop dipasang dan dijalankan langsung di sistem operasi komputer (pa
 ## 3. Buat Poster Infografis aplikasi yang telah dibuat dalam 1 halaman
 
 <img width="2400" height="7600" alt="Infografis SIHIFA (3)" src="https://github.com/user-attachments/assets/53e88637-f2d1-48f9-940d-60733b8ff420" />
-
-
-## Dokumentasi
-
-<img width="1600" height="950" alt="SIHIFA-1" src="https://github.com/user-attachments/assets/189409d8-558d-45eb-9ad7-b0ac7e303487" />
-<img width="1600" height="950" alt="SIHIFA-2" src="https://github.com/user-attachments/assets/6950d77c-3eb2-4c1e-8814-fbd2b69e2592" />
-<img width="1600" height="950" alt="SIHIFA-3" src="https://github.com/user-attachments/assets/153f6a64-a9d3-4881-bf24-cc7aeb40902a" />
-<img width="1600" height="950" alt="SIHIFA-4" src="https://github.com/user-attachments/assets/7c954e90-e3c3-4f9b-991c-faf944295f30" />
-<img width="1600" height="950" alt="SIHIFA-5" src="https://github.com/user-attachments/assets/efc90154-428b-4322-b2a4-e93edf5cca7f" />
